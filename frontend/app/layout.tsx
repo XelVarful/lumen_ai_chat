@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Люмен — AI-чат",
+  title: "LUMEN — AI Chat",
   description: "Минималистичный AI-ассистент на Groq",
 };
 
