@@ -57,8 +57,7 @@ export function Composer({ isStreaming, onSend, onStop }: ComposerProps) {
           </button>
         )}
       </form>
-      <p className="composer-hint">Люмен может ошибаться. Проверяйте важную информацию.</p>
+      <p className="composer-hint">LUMEN может ошибаться. Проверяйте важную информацию.</p>
     </div>
   );
 }
-

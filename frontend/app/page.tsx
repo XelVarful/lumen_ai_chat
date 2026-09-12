@@ -120,7 +120,7 @@ export default function Home() {
     generate(chat.id, history, assistantMessage.id);
   };
 
-  if (!storage.hydrated) return <div className="app-loader">Загружаем Люмен…</div>;
+  if (!storage.hydrated) return <div className="app-loader">Запускаем LUMEN…</div>;
 
   return (
     <main className="app-shell">

@@ -6,7 +6,7 @@ export function Brand({ compact = false }: { compact?: boolean }) {
       <span className="brand-mark">
         <Asterisk size={19} strokeWidth={2.4} />
       </span>
-      {!compact && <span>люмен</span>}
+      {!compact && <span className="brand-wordmark">LUMEN</span>}
     </div>
   );
 }
